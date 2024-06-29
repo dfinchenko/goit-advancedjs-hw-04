@@ -43,8 +43,7 @@ async function search(e) {
 
   if (currentQuery === query) {
     iziToast.show({
-      title: 'Sorry!',
-      message: 'Rewrite your requests, write something different.!',
+      message: 'Sorry, rewrite your requests, write something different.!',
       position: 'topRight',
     });
     return;
