@@ -138,11 +138,6 @@ img {
   padding: 10px;
 }
 
-b {
-  margin-bottom: 7px;
-  color: antiquewhite;
-}
-
 .box-likes {
   display: flex;
   flex-direction: column;
