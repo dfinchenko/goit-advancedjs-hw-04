@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixabay API</title>
+    
+    <script type="module" crossorigin src="/goit-advancedjs-hw-04/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-5f0e12e0.js">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-04/assets/vendor-fd638ea2.css">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-04/assets/index-66200de6.css">
+  </head>
+
+  <body>
+    <form class="search-form" id="search-form">
+      <input
+        class="input"
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button class="btn" type="submit">Search</button>
+    </form>
+    <div class="gallery js-gallery"></div>
+
+    <button type="button" class="load-btn js-load-btn">Load more...</button>
+    
+  </body>
+</html>
