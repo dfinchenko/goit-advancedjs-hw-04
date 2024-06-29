@@ -15,7 +15,7 @@ const refs = {
 };
 
 refs.form.addEventListener('submit', search);
-refs.loadBtn.addEventListener('click', lazyLoadMore);
+refs.loadBtn.addEventListener('click', loadMore);
 
 showElement(refs.loadBtn, false);
 
@@ -85,7 +85,7 @@ async function search(e) {
   }
 }
 
-async function lazyLoadMore(e) {
+async function loadMore(e) {
   e.preventDefault();
 
   page += 1;
